@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6552AB9817D42AC80073E592 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6552AB9A17D42AC80073E592 /* Localizable.strings */; };
+		88BEFD8FD87147F4AABE363A /* libPods-Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEEBE57809624E739DC6895D /* libPods-Example.a */; };
 		B12C23DF17C3FDE4001CF667 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B12C23DE17C3FDE4001CF667 /* UIKit.framework */; };
 		B12C23E117C3FDE4001CF667 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B12C23E017C3FDE4001CF667 /* Foundation.framework */; };
 		B12C23E317C3FDE4001CF667 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B12C23E217C3FDE4001CF667 /* CoreGraphics.framework */; };
@@ -19,14 +20,14 @@
 		B12C23F517C3FDE4001CF667 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B12C23F417C3FDE4001CF667 /* Default-568h@2x.png */; };
 		B12C23F817C3FDE4001CF667 /* ALViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B12C23F717C3FDE4001CF667 /* ALViewController.m */; };
 		B12C23FB17C3FDE4001CF667 /* ALViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B12C23F917C3FDE4001CF667 /* ALViewController.xib */; };
-		B12C240417C3FF84001CF667 /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B12C240317C3FF84001CF667 /* UIView+AutoLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6552AB9417D428A40073E592 /* ar */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ar; path = ar.lproj/ALViewController.xib; sourceTree = "<group>"; };
 		6552AB9517D428A40073E592 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6552AB9917D42AC80073E592 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		6552AB9B17D42ADB0073E592 /* ar */ = {isa = PBXFileReference; lastKnownFileType = file; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6552AB9917D42AC80073E592 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6552AB9B17D42ADB0073E592 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7533AF1A291E4F3C9E79F3D7 /* Pods-Example.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.xcconfig"; path = "Pods/Pods-Example.xcconfig"; sourceTree = "<group>"; };
 		B12C23DB17C3FDE4001CF667 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B12C23DE17C3FDE4001CF667 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B12C23E017C3FDE4001CF667 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -43,8 +44,7 @@
 		B12C23F617C3FDE4001CF667 /* ALViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALViewController.h; sourceTree = "<group>"; };
 		B12C23F717C3FDE4001CF667 /* ALViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALViewController.m; sourceTree = "<group>"; };
 		B12C23FA17C3FDE4001CF667 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ALViewController.xib; sourceTree = "<group>"; };
-		B12C240217C3FF84001CF667 /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+AutoLayout.h"; path = "../../Source/UIView+AutoLayout.h"; sourceTree = "<group>"; };
-		B12C240317C3FF84001CF667 /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+AutoLayout.m"; path = "../../Source/UIView+AutoLayout.m"; sourceTree = "<group>"; };
+		BEEBE57809624E739DC6895D /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +55,7 @@
 				B12C23DF17C3FDE4001CF667 /* UIKit.framework in Frameworks */,
 				B12C23E117C3FDE4001CF667 /* Foundation.framework in Frameworks */,
 				B12C23E317C3FDE4001CF667 /* CoreGraphics.framework in Frameworks */,
+				88BEFD8FD87147F4AABE363A /* libPods-Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +68,7 @@
 				B12C23E417C3FDE4001CF667 /* Example */,
 				B12C23DD17C3FDE4001CF667 /* Frameworks */,
 				B12C23DC17C3FDE4001CF667 /* Products */,
+				7533AF1A291E4F3C9E79F3D7 /* Pods-Example.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,6 +86,7 @@
 				B12C23DE17C3FDE4001CF667 /* UIKit.framework */,
 				B12C23E017C3FDE4001CF667 /* Foundation.framework */,
 				B12C23E217C3FDE4001CF667 /* CoreGraphics.framework */,
+				BEEBE57809624E739DC6895D /* libPods-Example.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -91,7 +94,6 @@
 		B12C23E417C3FDE4001CF667 /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				B12C240117C3FF76001CF667 /* UIView+AutoLayout */,
 				B12C23ED17C3FDE4001CF667 /* ALAppDelegate.h */,
 				B12C23EE17C3FDE4001CF667 /* ALAppDelegate.m */,
 				B12C23F617C3FDE4001CF667 /* ALViewController.h */,
@@ -117,15 +119,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B12C240117C3FF76001CF667 /* UIView+AutoLayout */ = {
-			isa = PBXGroup;
-			children = (
-				B12C240217C3FF84001CF667 /* UIView+AutoLayout.h */,
-				B12C240317C3FF84001CF667 /* UIView+AutoLayout.m */,
-			);
-			name = "UIView+AutoLayout";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -133,9 +126,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B12C23FE17C3FDE4001CF667 /* Build configuration list for PBXNativeTarget "Example" */;
 			buildPhases = (
+				C3287FD4FC0D4088BE006170 /* Check Pods Manifest.lock */,
 				B12C23D717C3FDE4001CF667 /* Sources */,
 				B12C23D817C3FDE4001CF667 /* Frameworks */,
 				B12C23D917C3FDE4001CF667 /* Resources */,
+				E4A590BA14024AD798BFC29E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -189,6 +184,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C3287FD4FC0D4088BE006170 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E4A590BA14024AD798BFC29E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B12C23D717C3FDE4001CF667 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -197,7 +225,6 @@
 				B12C23EB17C3FDE4001CF667 /* main.m in Sources */,
 				B12C23EF17C3FDE4001CF667 /* ALAppDelegate.m in Sources */,
 				B12C23F817C3FDE4001CF667 /* ALViewController.m in Sources */,
-				B12C240417C3FF84001CF667 /* UIView+AutoLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +319,7 @@
 		};
 		B12C23FF17C3FDE4001CF667 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7533AF1A291E4F3C9E79F3D7 /* Pods-Example.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";
@@ -303,6 +331,7 @@
 		};
 		B12C240017C3FDE4001CF667 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7533AF1A291E4F3C9E79F3D7 /* Pods-Example.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";

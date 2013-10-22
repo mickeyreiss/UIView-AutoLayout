@@ -13,4 +13,4 @@
     #import <Foundation/Foundation.h>
 #endif
 
-#import "UIView+AutoLayout.h"
+#import <UIView-AutoLayout/UIView+AutoLayout.h>

@@ -1,0 +1,14 @@
+PODS:
+  - UIView-AutoLayout (0.9.0)
+
+DEPENDENCIES:
+  - UIView-AutoLayout (from `..`)
+
+EXTERNAL SOURCES:
+  UIView-AutoLayout:
+    :path: ..
+
+SPEC CHECKSUMS:
+  UIView-AutoLayout: a78613c30a01a66a2c681cbc2430da94adb3a88f
+
+COCOAPODS: 0.24.0
