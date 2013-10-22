@@ -47,14 +47,6 @@ Setup
 -----
 *Note: you must be developing for iOS 6.0 or later to use Auto Layout.*
 
-**Manually from GitHub**
-
-1.	Download the `UIView+AutoLayout.h` and `UIView+AutoLayout.m` files and add them to your Xcode project
-2.	`#import UIView+AutoLayout.h` wherever you need it
-
-	*(Hint: adding the import to your precompiled header file once will allow you to access the API from anywhere in your app!)*
-3.	Start joyfully creating constraints in code!
-
 **Using [CocoaPods](http://cocoapods.org)**
 
 1. Add the pod `UIView+AutoLayout` to your [Podfile](https://github.com/CocoaPods/CocoaPods/wiki/A-Podfile).
@@ -64,6 +56,19 @@ Setup
 
 2. Run `pod install` from Terminal.
 3. Open your app's `.xcworkspace` file to launch Xcode and start joyfully creating constraints in code!
+
+**Manually from GitHub**
+
+1.	Download the `UIView+AutoLayout.h` and `UIView+AutoLayout.m` files and add them to your Xcode project
+
+    	wget https://raw.github.com/smileyborg/UIView-AutoLayout/master/Source/UIView+AutoLayout.h
+    	wget https://raw.github.com/smileyborg/UIView-AutoLayout/master/Source/UIView+AutoLayout.m
+
+2.	`#import UIView+AutoLayout.h` wherever you need it
+
+	*(Hint: adding the import to your precompiled header file once will allow you to access the API from anywhere in your app!)*
+3.	Start joyfully creating constraints in code!
+
 
 **Releases**
 
