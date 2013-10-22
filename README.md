@@ -49,10 +49,10 @@ Setup
 
 **Using [CocoaPods](http://cocoapods.org)**
 
-1. Add the pod `UIView+AutoLayout` to your [Podfile](https://github.com/CocoaPods/CocoaPods/wiki/A-Podfile).
+1. Add the pod `UIView-AutoLayout` to your [Podfile](https://github.com/CocoaPods/CocoaPods/wiki/A-Podfile).
 
     	platform :ios, '6.0'
-    	pod 'UIView+AutoLayout'
+    	pod 'UIView-AutoLayout'
 
 2. Run `pod install` from Terminal.
 3. Open your app's `.xcworkspace` file to launch Xcode and start joyfully creating constraints in code!

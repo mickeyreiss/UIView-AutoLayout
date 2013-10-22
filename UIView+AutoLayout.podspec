@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name          = "UIView-AutoLayout"
+  s.name          = "UIView+AutoLayout"
   s.version       = "0.9.0"
   s.summary       = "A carefully-crafted category on UIView that provides a simpler interface for creating Auto Layout constraints."
   s.description   = <<-DESC
